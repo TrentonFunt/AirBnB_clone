@@ -1,18 +1,20 @@
-#!/usr/bin/python3
-"""
-This module contains the Amenity class definition
+#!/usr/bin/env python3
+"""This module contains a class called 'Amenity'that inherits from 'BaseModel'
 """
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
     """
-    Amenity class definition
+    Public class attributes:
+        name: string - empty string
     """
-    name = ""
+    name = ''
 
     def __init__(self, *args, **kwargs):
-        """
-        Constructor method
-        """
-        super().__init__(*args, **kwargs)
+        if len(kwargs) == 0:
+            super().__init__()
+
+        # if kwargs have values
+        if len(kwargs) > 0:
+            super().__init__(**kwargs)
