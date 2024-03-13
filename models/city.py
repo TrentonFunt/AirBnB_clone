@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-City class, a subclass of BaseModel
+Th is the city class, a subclass of BaseModel
 """
 from models.base_model import BaseModel
 
