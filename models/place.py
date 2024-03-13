@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Place class, a subclass of BaseModel class
+The place class which is a subclass of BaseModel class
 """
 from models.base_model import BaseModel
 
