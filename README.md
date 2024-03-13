@@ -4,8 +4,7 @@ AirBnB Clone
 This project is an AirBnB clone, a simplified version of the popular online marketplace for lodging and tourism experiences. It includes a command-line interface (CLI) for managing various aspects of the application, such as creating and managing users, properties, bookings, and more.
 
 Command Interpreter
-How to Start It
-To start the command interpreter, follow these steps:
+How to Start It - To start the command interpreter, follow these steps:
 
 Clone the repository to your local machine.
 
