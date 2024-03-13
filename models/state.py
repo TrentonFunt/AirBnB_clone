@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-State class, a subclass of BaseModel
+Th is the state class, a subclass of BaseModel
 """
 from models.base_model import BaseModel
 
