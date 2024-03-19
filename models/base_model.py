@@ -4,7 +4,7 @@ from uuid import uuid4
 import models
 
 """
-Parent class to all classes in the AirBnB clone project
+The parent class to all classes in our AirBnB clone project
 """
 
 
